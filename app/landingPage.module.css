@@ -1,0 +1,51 @@
+.outerCont {
+  background-color: var(--p-black);
+}
+
+.innerCont {
+  margin: auto;
+  width: 800px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.header button {
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header div span {
+  margin-left: 15px;
+  padding: 10px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.innerCont label {
+  font-size: small;
+  color: var(--p-gray);
+}
+
+.invoiceRow {
+  padding: 20px;
+  background-color: var(--p-darkNavy);
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.invoiceRowCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoiceRowCont > div {
+  display: flex;
+}

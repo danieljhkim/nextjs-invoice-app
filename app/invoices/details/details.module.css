@@ -1,0 +1,108 @@
+.outerCont {
+  padding-top: 30px;
+}
+
+.topNav {
+  padding: 30px 0;
+}
+
+.detailsCont {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: auto
+}
+
+.detailsCont label {
+  font-size: small;
+}
+
+.detailsCont h3 {
+  padding-top: 5px;
+}
+
+.detailsRowOne {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--p-darkNavy);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.detailsRowOne > div:first-child > span {
+  font-size: medium;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.detailsRowOne button {
+  margin-left: 10px;
+  padding: 5px;
+  align-items: center;
+}
+
+.detailsRowTwo {
+  display: flex;
+  padding: 20px;
+  background-color: var(--p-darkNavy);
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.rowTwoRowOne {
+  display: flex;
+  background-color: var(--p-darkNavy);
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowTwoRowTwo {
+  display: flex;
+  flex-direction: column;
+}
+.rowTwoRowTwoInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowTwoRowTwoInner > div {
+  margin-right: 100px;
+}
+
+.rowTwoRowTwoInner > div > div {
+  margin-bottom: 20px;;
+}
+
+.tableCont {
+  padding: 10px 30px 30px 30px;
+  background-color: var(--p-navy);
+}
+
+.tableCont table {
+  width: 100%;
+}
+
+.tableCont table tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 0 0;
+}
+
+.tableCont table tr th{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.tableCont > div {
+  background-color: var(--p-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

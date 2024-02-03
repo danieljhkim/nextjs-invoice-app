@@ -1,0 +1,113 @@
+.paddingLR {
+  padding: 0 15px;
+}
+
+.paddingL {
+  padding-left: 15px;
+}
+
+.paddingR {
+  padding-right: 15px;
+}
+
+.purpleText {
+  color: var(--p-light-purple);
+  margin-top: 30px;
+}
+
+.marginL {
+  margin-left: 15px;
+}
+
+.marginR {
+  margin-right: 15px;
+}
+
+.outerCont {
+  padding: 50px 40px 100px 40px;
+  background-color: var(--p-darkNavy);
+  height: 100%;
+}
+
+.outerCont input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--p-navy);
+}
+
+.outerCont label {
+  display: block;
+  width: 100%;
+  margin-top: 15px;;
+  font-size: small;
+}
+
+
+.outerCont .flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.outerCont .flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemCont h3 {
+  margin: 25px 0 10px 0;
+  color: var(--p-gray);
+}
+
+
+.itemCont button{
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: var(--p-gray);
+}
+
+.itemCont > div {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+/* .itemCont > div buton {
+  padding: 25px 5px;
+  font-size: small;
+  padding: 0;
+} */
+
+.itemCont .specialBtn {
+  margin-top: 15px;
+  padding: 5px !important;
+  font-size: small !important;
+  border-radius: 0 !important;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white
+}
+
+.itemCont > div label {
+  display: block;
+  margin-top: 0;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 700px;
+  background-color: var(--p-navy);
+  padding: 20px 20px;
+}
+
+.btnCont button {
+  padding: 10px;
+  border-radius: 15px;
+}
